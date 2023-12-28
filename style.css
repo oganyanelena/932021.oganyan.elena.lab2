@@ -1,0 +1,498 @@
+/* Стили тегов */
+
+/* Стили для основного контейнера */
+body {
+    margin: 0; /* Убираем внешний отступ у body */
+    padding: 0; /* Убираем внешний отступ у body */
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #EAEAEA;
+    color: #000000;
+    text-align: left;
+    padding: 1px;
+    margin: 0;
+}
+
+/* Стили для нижнего колонтитула */
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+}
+
+a {
+    color: #FFFF80;
+}
+
+
+/* Стили классов */
+
+.red-text {
+    color: #FF0000;
+}
+
+/* Стили для левой части */
+.left {
+    width: 200px; /* Фиксированная ширина 200px */
+    padding: 10px;
+    float: left;
+    background-color: #C8FC98;
+}
+
+/* Стили для правой части */
+.right {
+    padding: 10px;
+    margin-left: 220px; /* Левая часть + отступ */
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-2-2 {
+    background-color: #EAEAEA;
+    color: #000000;
+    text-align: left;
+    padding: 1px;
+    margin: 0;
+}
+
+/* Стили для нижнего колонтитула */
+.footer-2-2 {
+    background-color: #000000;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+}
+
+/* Стили для левой части */
+.left-2-2 {
+    width: 25%;
+    background-color: #C8FC98;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для центральной части */
+.center-2-2 {
+    width: calc(75% - 208px);
+    min-width: 33%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Стили для правой части */
+.right-2-2 {
+    width: 200px; /* Максимальная ширина 200px */
+    background-color: #FDE95E;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.center-parent {
+    text-align: center;
+}
+.center-2-3 {
+    display: inline-block;
+    background-color: #0000FF; /* Цвет фона блока */
+    color: white; /* Цвет текста */
+    width: 800px; /* Ширина блока (можете изменить по своему усмотрению) */
+    padding: 0; /* Внутренние отступы для текста в блоке (можете изменить по своему усмотрению) */
+    margin: 5px; /* Центрирование по горизонтали */
+    text-align: left; /* Выравнивание текста по центру блока */
+}
+
+/* Стиль для блока div при полном экране (ширина >= 600px) */
+.center-2-4 {
+    max-width: 97%;
+    display: inline-block;
+    background-color: #0000FF; /* Цвет фона блока */
+    color: white; /* Цвет текста */
+    width: 600px; /* Ширина блока (можете изменить по своему усмотрению) */
+    padding: 0;
+    margin:3px;
+    text-align: left; /* Выравнивание текста по центру блока */
+}
+
+.green-center-2-5 {
+    background-color: #008000; /* Цвет фона блока */
+    color: white; /* Цвет текста */
+    width: 40%; /* Ширина блока (можете изменить по своему усмотрению) */
+    padding: 0 1px 0 1px; /* Внутренние отступы для текста в блоке (можете изменить по своему усмотрению) */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: left; /* Выравнивание текста по центру блока */
+}
+
+.blue-center-2-5 {
+    background-color: #0000FF; /* Цвет фона блока */
+    color: white; /* Цвет текста */
+    width: 50%; /* Ширина блока (можете изменить по своему усмотрению) */
+    padding: 30px 50px 30px 50px; /* Внутренние отступы для текста в блоке (можете изменить по своему усмотрению) */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: center; /* Выравнивание текста по центру блока */
+}
+
+.container-2-6 {
+    text-align: center;
+}
+
+.transparent-center-2-6 {
+    text-align: left;
+    width: 40%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.transparent-center-blue-border-2-6 {
+    width: 40%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 10px auto;
+    border: 10px solid #0000FF;
+}
+
+.container-2-7-1 {
+    position: relative;
+}
+
+.block-1-2-7-1 {
+    background-color: #8A2BE2;
+    color: white;
+    padding: 0;
+    margin: 10px 0 0 10px;
+    width: 200px;
+    height: 150px;
+    text-align: left;
+}
+
+.block-2-2-7-1 {
+    background-color: #8B0000;
+    color: white;
+    padding: 0;
+    margin: 0 0 0 10px;
+    width: 200px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+}
+
+.block-3-2-7-1 {
+    background-color: #CD853F;
+    color: white;
+    padding: 0;
+    margin: 0 0 0 10px;
+    width: 200px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+.block-4-2-7-1 {
+    background-color: #CD5C5C;
+    color: white;
+    margin: 20px 0 0 10px;
+    width: 600px;
+    height: 350px;
+    text-align: left;
+    position: relative;
+    top: -40px;
+}
+
+.block-5-2-7-1 {
+    background-color: #4B0082;
+    color: white;
+    padding: 0;
+    margin: 0 0 0 10px;
+    width: 280px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+    float: right;
+    transform: translateY(80%);
+}
+
+.block-5-2-7-2 {
+    background-color: #228B22;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    width: 80px;
+    height: 120px;
+}
+
+.left-up-2-8-1 {
+    background-color: #FFE4C4;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.left-down-2-8-1 {
+    background-color: #00FFFF;
+    width: 200px;
+}
+
+.right-2-8-1 {
+    background-color: #A9A9A9;
+    float: right;
+    padding: 10px;
+}
+
+.container-2-8-1 {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.left-2-8-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-up-2-8-1,
+.left-down-2-8-1 {
+    flex: 1;
+}
+
+.left-up-2-8-2 {
+    background-color: #FFE4C4;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex: 0 0 150px;
+}
+
+.left-down-2-8-2 {
+    background-color: #00FFFF;
+    width: 200px;
+    flex: 1;
+}
+
+.footer-2-8-2 {
+    background-color: #32CD32;
+    height: 75px;
+}
+
+.center-2-9-1 {
+    background-color: #0000FF; /* Цвет фона блока */
+    color: white; /* Цвет текста */
+    width: 30%; /* Ширина блока (можете изменить по своему усмотрению) */
+    padding: 0 0 0 1px; /* Внутренние отступы для текста в блоке (можете изменить по своему усмотрению) */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: left; /* Выравнивание текста по центру блока */
+    position: relative;
+}
+
+.image-2-9-1 {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.center-2-9-2 {
+    background-color: #0000FF;
+    color: white;
+    padding: 0 0 0 1px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    white-space: normal;
+    overflow-x: visible;
+    width: 576px;
+}
+
+.outer-container-2-9-2 {
+    overflow-x: auto;
+}
+
+.float-box-2-10-1 {
+    float: left;
+    background-color: #7FFFD4;
+    margin: 10px;
+    width: 150px;
+    height: 80px;
+}
+
+.float-box-2-10-1 p {
+    margin: 0;
+}
+
+.clear-box-2-10-1 {
+    clear: both;
+    background-color: #FFE4C4;
+    padding: 0;
+}
+
+.container-2-11-1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #53C182;
+}
+
+.text-2-11-1 {
+    background-color: #00FFFF;
+    flex: 1;
+    padding: 5px;
+}
+
+.image-2-11-1 {
+    flex: 0 0 300px;
+}
+
+.container-2-12-1 {
+    display: inline-block;
+    border: 1px solid #53C182;
+    background-color: #00FFFF;
+}
+
+.left-up-2-12-1 {
+    background-color: #FFE4C4;
+    width: 25%;
+    margin-right: 5px;
+    float: left;
+}
+
+.right-2-12-1 {
+    background-color: #A9A9A9;
+    width: 74.5%;
+    margin-left: auto;
+    min-width: 400px;
+    float: left;
+}
+
+
+
+.container-2-12-2 {
+    background-color: #00FFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.left-up-2-12-2 {
+    background-color: #FFE4C4;
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.left-down-2-12-2 {
+    background-color: #A9A9A9;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-2-13-2 {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border: 1px solid #53C182;
+    background-color: #00FFFF;
+}
+
+.image-2-13-2 {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.text-2-13-2 {
+    text-align: left;
+    position: relative;
+    white-space: normal;
+    overflow-x: visible;
+}
+
+.left-2-14-1 {
+    background-color: #FFE4C4;
+    width: 25%;
+    float: left;
+}
+
+.right-2-14-1 {
+    background-color: #A9A9A9;
+    float: right;
+    padding: 10px;
+    margin: 0;
+}
+
+.container-2-14-1 {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #53C182;
+    background-color: #00FFFF;
+}
+
+@media screen and (max-width: 700px)
+{
+    .left-2-14-1 {
+        width: 100%;
+        background-color: #FFE4C4;
+        margin: 20px 0 20px 0;
+        float: none;
+    }
+
+    .left-2-14-1 ul {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .left-2-14-1 li {
+        display: inline-block;
+    }
+}
+
+.container-2-14-2 {
+    background-color: #00FFFF;
+}
+.title-2-14-2 {
+    margin: 20px 0 20px 0;
+    background-color: #FFE4C4;
+}
+
+.text-2-14-2 {
+    background-color: #A9A9A9;
+}
+
+.footer-2-15-1 {
+    margin: 10px 0 10px 0;
+    background-color: #FAEBD7;
+    text-align: left;
+}
+
+.inline-block-2-15-1 {
+    display: inline-block;
+    width: calc(12% - 20px);
+    background-color: #7FFFD4;
+    margin: 10px 10px;
+    text-align: left;
+    height: 100px;
+}
+
+.inline-block-2-15-2 {
+    display: inline-block;
+    width: calc(49% - 20px);
+    background-color: #7FFFD4;
+    margin: 10px 10px;
+    text-align: left;
+    height: 100px;
+}
